@@ -22,8 +22,8 @@ public enum MountType {
     GLACIALSTEED("ultracosmetics.mounts.glacialsteed", "GlacialSteed", Material.PACKED_ICE, (byte) 0, EntityType.HORSE,
             "&7&oThis mount comes from North Pole!", MountGlacialSteed.class),
     WALKINGDEAD("ultracosmetics.mounts.walkingdead", "WalkingDead", Material.ROTTEN_FLESH, (byte) 0, EntityType.HORSE, "&7&oGraaaaw...", MountWalkingDead.class),
-    MOUNTOFFIRE("ultracosmetics.mounts.mountoffire", "MountOfFire", Material.BLAZE_POWDER, (byte) 0, EntityType.HORSE, "&7&oThe mount of Hadès!", MountOfFire.class),
-    MOUNTOFWATER("ultracosmetics.mounts.mountofwater", "MountOfWater", Material.INK_SACK, (byte) 4, EntityType.HORSE, "&7&oThe mount of Poséidon!", MountOfWater.class),
+    MOUNTOFFIRE("ultracosmetics.mounts.mountoffire", "MountOfFire", Material.BLAZE_POWDER, (byte) 0, EntityType.HORSE, "&7&oThe mount of Hades!", MountOfFire.class),
+    MOUNTOFWATER("ultracosmetics.mounts.mountofwater", "MountOfWater", Material.INK_SACK, (byte) 4, EntityType.HORSE, "&7&oThe mount of Poseidon!", MountOfWater.class),
     ECOLOGISTHORSE("ultracosmetics.mounts.ecologisthorse", "EcologistHorse", Material.RED_ROSE, (byte) 0, EntityType.HORSE, "&7&oBecome ecologist!", MountEcologistHorse.class),
     SNAKE("ultracosmetics.mounts.snake", "Snake", Material.SEEDS, (byte) 0, EntityType.SHEEP, "&7&oWatch out! It may bite..", MountSnake.class),
     NYANSHEEP("ultracosmetics.mounts.nyansheep", "NyanSheep", Material.STAINED_GLASS, (byte) 9, EntityType.SHEEP,
@@ -39,7 +39,8 @@ public enum MountType {
             "&7&oWhat would be Christmas\n&7&owithout Rudolph the Reeinder?", MountRudolph.class),
     MOLTENSNAKE("ultracosmetics.mounts.moltensnake", "MoltenSnake", Material.MAGMA_CREAM, (byte) 0, EntityType.MAGMA_CUBE,
             "&7&oDeep under the Earth's surface, there\n&7&oexists a mythical species of Molten\n&7&oSnakes. This one will serve you eternally.", MountMoltenSnake.class),
-    FLYINGSHIP("ultracosmetics.mounts.flyingship", "FlyingShip", Material.BOAT, (byte) 0, EntityType.BOAT, "&7&oBomb them all!", MountFlyingShip.class);
+    FLYINGSHIP("ultracosmetics.mounts.flyingship", "FlyingShip", Material.BOAT, (byte) 0, EntityType.BOAT, "&7&oBomb them all!", MountFlyingShip.class),
+    ANGELHORSE("ultracosmetics.mounts.angelhorse", "AngelHorse", Material.BOAT, (byte) 0, EntityType.BOAT, "&7&oLike Flying Angel In The Skies!", MountAngelHorse.class);
   
   
     private String permission, configName, description;
