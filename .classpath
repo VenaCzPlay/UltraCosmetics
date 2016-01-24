@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/PC-DESKTOP/Downloads/Server/spigot.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC-DESKTOP/Downloads/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC-DESKTOP/Downloads/LibsDisguises.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC-DESKTOP/Downloads/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC-DESKTOP/Downloads/NoteBlockAPI-1.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
